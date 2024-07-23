@@ -5,6 +5,7 @@ library(data.table)
 library(DT)
 
 #Importamos nuestra base de datos.
+#La base de datos se encuentra disponible en el siguiente enlace: https://digibug.ugr.es/handle/10481/93386
 
 setwd("C:/Users/icife/OneDrive/Escritorio/Escritorio/Master Universitario en Matemáticas/TFM")
 datos <- read_excel("ITCIAR_variablesTFM.xlsx", sheet = "Datos")
