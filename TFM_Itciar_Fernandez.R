@@ -180,7 +180,7 @@ for (i in 1:n){
   
   library(ggplot2)
   
-  # Histogramas y boxplots para los predictores
+  # Gráficos de barras
   ggplot(datos, aes(x = LV, y = LV)) + geom_bar(stat = "identity", fill = "skyblue") +
     labs(title = "Histograma de Goles a Favor", x ="Goles a Favor") + theme_minimal() 
   ggplot(datos, aes(x = GF, y = GF)) + geom_bar(stat = "identity", fill = "skyblue") +
