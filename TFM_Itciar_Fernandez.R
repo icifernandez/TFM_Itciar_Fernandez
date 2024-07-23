@@ -176,7 +176,7 @@ for (i in 1:n){
   colnames(tabla_resultados) <- variables
   round(tabla_resultados, digits = 3)
   
-#Veamos ahora gráficamente la distribución de las variables elegidas y que acabamos de comentar.
+#Veamos ahora gráficamente la distribución de las variables elegidas.
   
   library(ggplot2)
   
